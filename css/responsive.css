@@ -1,0 +1,47 @@
+@media screen and (max-width: 767px){
+	.bg-white{height: auto;}
+	.kl-logo{position: inherit; background: none; padding: 0; margin: 0; left: 0;}
+	.kl-title-find-job{padding-left: 0; text-align: center;}
+	.kl-content-job p, .kl-content-recrute p{font-size: 20px; margin-left: 0; text-align: center;}
+	.kl-step-img{left: 0; text-align: center;}
+	.kl-number{left: 0;}
+	.kl-list-progress{left: 13px;}
+	.kl-desc p {float: none; width: 100%; text-align: center;}
+	.kl-offre{padding-bottom: 20px;}
+	.kl-footer{text-align: center;}
+	.kl-footer-col3{margin-left: 0;}
+	.kl-border::after {content: none;}
+	.kl-footer-col1 img{display: block; margin-right: auto; margin-left: auto;}
+	.kl-login{display: none;}
+	#id-menu-mobile{text-align: center;}
+	.kl-submit{float: none;}
+	.kl-content-form{width: 100%;}
+}
+@media screen and (min-width: 768px){
+	#id-menu-mobile{display: none !important;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.kl-step-img{left: 0;}
+	.kl-number{left: 0;}
+	.kl-list-progress{left: 0;}
+	.kl-content-job p, .kl-content-recrute p{font-size: 26px; margin-left: 45px;}
+	.kl-offre{padding-bottom: 20px;}
+	.kl-footer-col3{margin-left: 0;}
+	.kl-recruteur a{padding-right: 9px;}
+	.kl-offre-col1 h3, .kl-color{font-size: 23px;}
+}
+@media screen and (min-width: 992px) and (max-width: 1144px){
+	.kl-step-img{left: 0;}
+	.kl-number{left: 0;}
+	.kl-list-progress{left: 30px;}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.kl-content-recrute p{margin-left: 55px;}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1324px){
+
+}
+@media screen and (min-width: 320px) and (max-width: 1199px){
+	.kl-content-page{margin-left: 0; margin-right: 0;}
+}

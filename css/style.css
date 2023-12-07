@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins-black';
+    src: url('../fonts/Poppins-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-BlackItalic';
+    src: url('../fonts/Poppins-BlackItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('../fonts/Poppins-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: url('../fonts/Poppins-ExtraBoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('../fonts/Poppins-ExtraLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-ExtraLightItalic';
+    src: url('../fonts/Poppins-ExtraLightItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('../fonts/Poppins-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/Poppins-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-LightItalic';
+    src: url('../fonts/Poppins-LightItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-MediumItalic';
+    src: url('../fonts/Poppins-MediumItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-SemiBoldItalic';
+    src: url('../fonts/Poppins-SemiBoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('../fonts/Poppins-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Poppins-ThinItalic';
+    src: url('../fonts/Poppins-ThinItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{font-family: 'Poppins', sans-serif;}
+.wrapper{ width:100%; font-family:'Poppins', sans-serif;}
+img{max-width: 100%;}
+.img-responsive{width: 100% !important;}
+ul{list-style: none;}
+.bg-white{height: 35px;}
+.kl-logo { position: relative; z-index: 10; background-color: #fff; padding: 40px; margin-top: 68px; left: 8%}
+.kl-logo img {position: relative;top: -13px;}
+.kl-find-job { background-color: #ea553e; height: 50px;}
+.kl-recrute{background-color: #00aca7; height: 50px;}
+.kl-title-find-job{ padding-left: 148px; padding-top: 5px;}
+.kl-title-recrute { text-align: center; padding-top: 7px;}
+.kl-title-find-job h1, .kl-title-recrute h1 { font-size: 14px; font-weight: 600; color: #fff; display: inline; margin-left: 15px;
+vertical-align: middle;}
+.kl-connexion {color: #ea553e !important;}
+.kl-connexion:hover{color: #ea553e !important;}
+.kl-login{font-size: 10px !important;}
+.kl-contact, .kl-contact:hover{color: #10284a;}
+.kl-content-job{background: url('../images/candidat.jpg') no-repeat; height: 250px; position: relative;}
+.kl-absolute{width: 100%; height: 100%; position: absolute; background-color: rgba(324, 85, 62, 0.5); left: 0;}
+.kl-content-recrute{background: url('../images/recrute.jpg'); height: 250px; position: relative;}
+.kl-absolute-recrute{width: 100%; height: 100%; position: absolute; background-color: rgba(0, 172, 167, 0.5); left: 0;}
+.kl-content-job p { color: #fff; font-size: 30px; margin-left: 120px; margin-top: 45px;}
+.kl-content-recrute p{color: #fff; font-size: 30px; margin-left: 120px; margin-top: 45px;}
+.kl-step{padding: 60px 0;}
+.kl-number { position: relative; left: 68px;}
+.kl-progress { border-bottom: dotted; position: absolute; top: 20px; width: 94%;}
+.kl-list-progress { position: relative; float: left; width: 25%; left: 40px; top: 7px;}
+.kl-list-progress h4 { font-size: 13.97px; background: #ea553e; color: #fff; width: 30px; height: 30px; border-radius: 50%; text-align: center; padding-top: 7px;}
+.kl-desc p { float: left; width: 25%; font-size: 13.97px; color: #10284a; font-weight: 600; text-align: center; margin-bottom: 60px;
+margin-top: 20px;}
+.kl-text-normal{font-weight: normal;}
+.kl-step-img{position: relative; left: 80px;}
+.kl-offre{background-color: #e8e9ed;}
+h3.kl-title-partenaire { text-transform: uppercase; margin-top: 56px; font-size: 14px; color: #10284a; font-weight: bold; margin-bottom: 27px;
+}
+.kl-partenaire-list{padding-bottom: 48px;}
+.kl-partenaire-list li img {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.kl-partenaire-list li{text-align: center;}
+.kl-offre-col1 h3 { position: absolute; top: 276px; font-size: 30px; color: #10284a;}
+.kl-color { color: #00aca7; font-size: 30px;}
+.kl-offre-une, .kl-last-recrute{background-color: #fff; margin-top: 30px;}
+.kl-offre-une h2 { background: #ea553e; color: #fff; padding: 15px; font-size: 14px;}
+.kl-offre-col1 img { position: relative; top: -62px;}
+.kl-content-offre{padding: 20px; height: 311px;}
+.kl-content-offre h3 { font-size: 16px; color: #10284a; margin-top: 22px; font-weight: bold;}
+.kl-content-offre h4 { font-size: 14px; color: #ea553e;}
+.kl-content-offre h4 span {font-weight: bold;}
+.kl-content-offre h5 { color: #00aca7; font-size: 14px; margin-bottom: 17px;}
+.kl-content-offre p {color: #10284a;font-size: 12px;}
+.kl-last-recrute h2 { background: #00aca7; color: #fff; font-size: 14px; padding: 15px; font-weight: bold;}
+.kl-content-last{/*padding: 88px;*/ height: 311px;}
+.kl-prev, .kl-next{top: -375px !important; opacity: 1 !important; width: 20px !important;}
+.kl-content-last img { margin-left: auto; margin-right: auto; display: block; margin-top: 80px;}
+.kl-footer{background-color: #10284a; padding-bottom: 50px;}
+.kl-footer-col1{margin-top: 33px;}
+.kl-menu-footer { display: inline-flex; margin-top: 15px; padding-left: 25px;}
+.kl-menu-footer li a {font-size: 10px; padding-right: 20px; color: #fff;}
+.kl-border:after { content: '|'; position: absolute; top: 115px; left: 93px; color: #fff;}
+.kl-footer-col2{margin-top: 33px;}
+.kl-footer-col2 p {font-size: 10px; color: #fff;}
+.kl-reseaux{display: inline-flex; padding-left: 15px;}
+.kl-reseaux li a i { color: #10284a; background: #fff; margin-right: 22px; width: 42px; height: 42px; border-radius: 50%; text-align: center; padding-top: 10px; font-size: 22px;}
+.kl-footer-col3{margin-top: 47px; margin-left: 60px;}
+.kl-candidate a { color: #fff; background: #ea553e; padding: 10px 15px 10px 23px; border-radius: 35px;}
+.kl-candidate a:hover, .kl-recruteur a:hover {color: #fff; text-decoration: none;}
+.kl-recruteur{margin-top: 32px;}
+.kl-recruteur a { color: #fff; background: #00aca7; padding: 10px 15px 10px 23px; border-radius: 35px;}
+.kl-candidate i, .kl-recruteur i{margin-left: 20px;}
+.kl-title-page{background: #10284a;}
+.kl-title-page h1 { font-size: 30px; color: #fff; padding: 40px 0; font-weight: 600;}
+.kl-content-page{margin-top: 65px; margin-bottom: 50px; margin-left: 100px; margin-right: 100px;}
+.kl-accroche { color: #10284a; font-size: 24px; margin-bottom: 50px;}
+.kl-color-page { font-size: 16px; color: #ea553e; font-weight: 600;}
+.kl-content-page p { color: #10284a; font-size: 16px; text-align: justify; margin-top: 27px;}
+.kl-color-blue { font-size: 16px; color: #00aca7;}
+.kl-desc-contact { color: #10284a; font-size: 24px;}
+.kl-content-form { margin-top: 64px; margin-right: auto; margin-left: auto; width: 80%;}
+.kl-form { margin-top: 44px;}
+input[type="email"], input[type="text"], input[type="tel"], input[type="password"] {background: #e8e9ed; border-radius: 0; border: solid 1px #e8e9ed; font-size: 14px; color: #10284a; padding: 13px;
+}
+#id-message { font-size: 14px; color: #10284a; background: #e8e9ed; border-radius: 0; border: solid 1px #e8e9ed; height: 195px; padding: 13px;}
+.kl-info-contact { font-size: 8px; color: #10284a;}
+.kl-submit i{margin-left: 60px;}
+.kl-submit { float: right; background: #ea553e !important; padding: 7px 11px 7px 90px !important; border-radius: 35px !important; border: solid 1px #ea553e !important; text-align: center !important; text-transform: uppercase;}
+.kl-menu-mobile-icon{border: 0 !important;}
+#id-file { display: none;}
+.kl-btn-file {  position: relative;  overflow: hidden;  background: #10284a;  padding: 11px 36px;  color: #fff;  font-size: 14px;  border-radius: 35px !important;}
+.kl-btn-file input[type=file] {  position: absolute;  top: 0;  right: 0;  min-width: 100%;  min-height: 100%;  font-size: 100px;  text-align: right;  filter: alpha(opacity=0);  opacity: 0;  outline: none;  background: white;  cursor: inherit;  display: block;  }
+.kl-btn-file i{margin-left: 11px;}
+.modal-content{background: none !important; border: 0 !important}
+.kl-modal-title h4 { font-size: 30px; color: #fff; margin-bottom: 44px;}
+.kl-modal-title img, .kl-modal-title-inscription img { margin-right: auto; margin-left: auto; display: block;}
+.kl-modal-body { margin-top: 27px;}
+.kl-submit-connexion { color: #fff; background: #3b68aa !important; padding: 10px 15px 10px 23px !important; border-radius: 35px !important; border: solid 1px #3b68aa !important; float: right;}
+.kl-submit-connexion i {margin-left: 20px;}
+#id-modal-connexion, #id-modal-inscription, #id-modal-msg-inscription { background-color: rgba(16, 40, 74, 0.9);}
+.kl-modal-body-message p{color: #fff; font-size: 18px;}
+.kl-close { color: #9c9c9c; cursor: pointer;}
+.kl-close i {font-size: 11px;}
+.kl-close span { font-size: 10px; text-decoration: underline;}
+.kl-modal-title-inscription h4{font-size: 30px; color: #fff;}
+.kl-modal-body-inscription { margin-right: auto; margin-left: auto;}
+.kl-submit-facebook {width: 100%;}
+.kl-submit-inscription {float: right;}
+.kl-question p {font-size: 12px;text-align: center;color: #fff;margin-top: 12px;}
+.kl-question h4 { color: #ea553e; font-size: 30px; margin-bottom: 30px;}
+.kl-required {font-size: 8px;color: #fff; white-space: nowrap; margin-top: 40px;}
+.kl-submit-inscription i { margin-left: 60px;}
+.kl-submit-inscription { color: #fff; background: #ea553e !important; padding: 9px 15px 9px 23px !important; border-radius: 35px !important; border: solid 1px #ea553e !important; margin-top: 25px;}
+.kl-submit-facebook { background-color: #5678be !important; border: solid 1px #5678be !important; border-radius: 0 !important;}
+.kl-submit-facebook i { color: #5678be !important; background: #fff; padding: 8px; border-radius: 4px; font-size: 20px;}
+.kl-checkbox{display: none;}
+.kl-checkbox-candidate { background: #ea553e; color: #fff; font-size: 12px; text-transform: uppercase; padding: 10px 70px; cursor: pointer; border-radius: 3px; width: 100%; white-space: nowrap;}
+.kl-content-check { text-align: center; margin-right: auto !important; margin-left: auto !important; width: 100%; margin-top: 15px;
+margin-bottom: 15px;}
+.kl-checkbox-recrute { background: #00aca7; color: #fff; font-size: 12px; text-transform: uppercase; padding: 10px 70px; cursor: pointer; border-radius: 3px; width: 100%; white-space: nowrap;}
+.kl-active {box-shadow: inset 1px 2px 15px 13px #c83420;}
+.kl-active-recrute{box-shadow: inset 1px 2px 15px 13px #088682;}
+.kl-reseaux a i:hover { background: #00aca7; transition: 0.5s; color: #fff;}
+.kl-candidate a:hover { background: #00aca7 ; transition: 0.5s;}
+.kl-recruteur a:hover {background: #ea553e;transition: 0.5s;}
+.kl-submit:hover{background: #00aca7 !important; transition: 0.5s; border: #00aca7 !important;}
+.kl-submit-connexion:hover{background: #ea553e !important; transition: 0.5s; border: #ea553e !important;}
+.kl-submit-inscription:hover{background: #00aca7 !important; transition: 0.5s; border: #00aca7 !important;}

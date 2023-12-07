@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JOBPEI</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+	<header class="kl-header">
+		<nav class="navbar navbar-expand-sm bg-white navbar-light">
+		  <a class="navbar-brand mx-auto kl-logo" href="#"><img src="images/logo.png"></a>
+		  <ul class="navbar-nav navbar-right kl-login">
+		    <li class="nav-item">
+		      <a class="nav-link kl-connexion" href="#"><span><img src="images/login.png"></span>&nbsp;&nbsp;Connexion</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link kl-connexion" href="#">Inscription</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link kl-contact" href="#">Contact</a>
+		    </li>
+		  </ul>
+		  <button type="button" data-target="#id-menu-mobile" data-toggle="collapse" class="navbar-toggler kl-menu-mobile-icon">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="clearfix"></div>
+			<div id="id-menu-mobile" class="navbar-collapse collapse main-menu">
+				<ul class="navbar-nav">
+				    <li class="nav-item">
+				      <a class="nav-link kl-connexion" href="#"><span><img src="images/login.png"></span>&nbsp;&nbsp;Connexion</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link kl-connexion" href="#">Inscription</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link kl-contact" href="#">Contact</a>
+				    </li>
+				 </ul>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 kl-find-job">
+					<div class="kl-title-find-job">
+						<span><img src="images/empoule.png"></span>
+						<h1 class="text-uppercase">Je cherche un job</h1>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 kl-recrute">
+					<div class="kl-title-recrute">
+						<span><img src="images/cravatte.png"></span>
+						<h1 class="text-uppercase">Je recrute</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="kl-title-page">
+		<div class="container-fluid">
+			<h1 class="text-center">Contactez-nous par email</h1>
+		</div>
+	</section>
+	<section class="kl-contact">
+		<div class="container">
+			<div class="kl-content-form">
+				<span class="kl-desc-contact">
+					Envoyez-nous votre question ou votre commentaire, et notre<br/>
+					assistance vous répondra dans les meilleurs délais.
+				</span>
+				<form class="kl-form" method="POST" action="">
+					<div class="row">
+						<div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<input type="email" name="email" class="form-control" required="" placeholder="email*">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<input type="text" name="name" class="form-control" required="" placeholder="Nom*">
+						</div>
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<input type="text" name="lastname" class="form-control" required="" placeholder="Prénom*">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<input type="tel" name="phone" class="form-control" placeholder="Téléphone">
+						</div>
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<input type="text" name="country" class="form-control" placeholder="Code postal">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<input type="text" name="ville" class="form-control" placeholder="Ville">
+						</div>
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<input type="text" name="address" class="form-control" placeholder="Adresse">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<textarea id="id-message" class="form-control" name="message" required="" placeholder="Décrivez votre problème au question*"></textarea>
+						</div>
+					</div>
+					<p class="kl-info-contact">Ces données (obligatoires lorsque signalées par un astérisque) permettent à JobPéi de répondre à votre demande.</p>
+					<div class="row">
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<label class="input-group-prepend">
+							<span class="btn kl-btn-file">
+								Insérer une pièce jointe <i class="fas fa-download"></i>
+								<input id="id-file" class="form-control" type="file" name="file" multiple="">
+							</span>
+							</label>
+						</div>
+						<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<button type="submit" class="btn btn-primary kl-submit">Envoyer<i class="fas fa-chevron-right"></i></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="kl-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="kl-footer-col1">
+						<a href="#"><img src="images/logo-footer.png"></a>
+						<ul class="kl-menu-footer">
+							<li class="kl-border">
+								<a href="#">A propos</a>
+							</li>
+							<li>
+								<a href="#">Mentions légales</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="kl-footer-col2">
+						<p>Suivez-nous sur les réseaux sociaux</p>
+						<ul class="kl-reseaux">
+							<li>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+						<p>JobPéi © 2018. Développement HugoCorp</p>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="kl-footer-col3">
+						<div class="kl-candidate">
+	                        <a href="#" class="text-uppercase">Espace candidat<i class="fas fa-chevron-right"></i></a>
+	                    </div>
+	                    <div class="kl-recruteur">
+	                        <a href="#" class="text-uppercase">Espace recruteur<i class="fas fa-chevron-right"></i></a>
+	                    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/owl.carousel-first.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+</body>
+</html>
